@@ -1,3 +1,4 @@
 {
   first_name: params[:first_name]
+  updated_at: params[:updated_at]
 }

@@ -4,6 +4,9 @@
   first_name: contact.first_name,
   last_name: contact.last_name,
   phone_number: contact.phone_number,
-  email: contact.email
+  email: contact.email,
+  updated_at: contact.friendly_updated_at,
+  full_name: contact.full_name
+
 }
 end
