@@ -1,4 +1,5 @@
 class Contact < ApplicationRecord
+  belongs_to :user
 validate :first_name, presence: true
 validate :last_name, presence: true
 
