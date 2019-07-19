@@ -7,6 +7,7 @@ Rails.application.routes.draw do
     patch "/contacts/:id" => "contacts#update"
     post "/users" => "users#create"
     post "/sessions" => "sessions#create"
-
   end
+    get '/recipes' =>
+
 end
