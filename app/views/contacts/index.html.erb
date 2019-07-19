@@ -1,0 +1,6 @@
+<% @contacts.each do |contact| %>
+  <p>First_name: <%= contact.first_name %></p>
+  <a href="/contacts/<%= contact.id %>">Take a closer look at the contact</a>
+  <p>Last_name: <%= contact.last_name %></p>
+  <hr>
+<% end %>
