@@ -1,0 +1,16 @@
+Hi from the show action
+
+<a href="/contacts">Go back to the home page</a>
+
+
+<p><%= @contact.first_name %></p>
+<p><%= @contact.email %></p>
+<p><%= @contact.last_name %></p>
+<p><%= @contact.phone_number %></p>
+<p><%= @recipe.id %></p>
+
+
+
+
+
+<a href="/contacts/<%= @contact.id %>" data-method="delete" rel="nofollow">Delete the recipe</a>
